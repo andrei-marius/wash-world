@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wash-world/static/css/main.4708a3a3.css",
+    "main.js": "/wash-world/static/js/main.0a4c9ac2.js",
+    "static/js/787.c00c1a36.chunk.js": "/wash-world/static/js/787.c00c1a36.chunk.js",
+    "static/media/logo.png": "/wash-world/static/media/logo.c1ed7e4ba198059e22c3.png",
+    "index.html": "/wash-world/index.html",
+    "main.4708a3a3.css.map": "/wash-world/static/css/main.4708a3a3.css.map",
+    "main.0a4c9ac2.js.map": "/wash-world/static/js/main.0a4c9ac2.js.map",
+    "787.c00c1a36.chunk.js.map": "/wash-world/static/js/787.c00c1a36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4708a3a3.css",
+    "static/js/main.0a4c9ac2.js"
+  ]
+}
