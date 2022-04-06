@@ -1,0 +1,82 @@
+h1, p, html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #00C167;
+    --grey: #F6F6F6;
+    ---white: #FFFFFF;
+    --black: #000000;
+}
+
+.loader:after {
+    content: "";
+    display: inline-block;
+    font-size: 6.2px;
+    border: 1.2em solid var(--green);
+    border-right-color: rgba(0,64,128, 0) !important;
+    transform: translateZ(0);
+    animation: spiner 1s infinite cubic-bezier(0.53, 0.21, 0.57, 0.85);
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    right: calc(50% - 5em);
+    margin-top: -6em;  
+}
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+button{
+    background: none;
+    outline: none;
+}
+
+.App-header {
+  background-color: var(--green);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.component-container{
+    font-size: 16px;
+    text-align: center;
+    border: 3px solid var(--grey);
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.component-text{
+    font-size: 16px;
+    display: block;
+}
+.location-name{
+    color: var(--black) !important;
+}
